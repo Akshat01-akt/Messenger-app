@@ -53,7 +53,7 @@ class ContactController extends GetxController {
                     email: data['email'] ?? '',
                     avatarUrl:
                         data['photoURL'] ??
-                        'https://i.pravatar.cc/150?u=${doc.id}',
+                         'https://i.pravatar.cc/150?u=${doc.id}',
                     isOnline: false, // You could add online status logic later
                     targetUserId: doc.id, // THE USER ID IS THE TARGET
                   );
